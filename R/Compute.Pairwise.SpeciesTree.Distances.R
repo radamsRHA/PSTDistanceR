@@ -1,7 +1,10 @@
-#' Compute.Pairwise.SpeciesTree.Distances: function to XXX
+#' Compute.Pairwise.SpeciesTree.Distances: function to compute a matrix of pairwise distances among a set of species trees
 #'
-#' This function returns a XXX
-#' @param XXX XXX
+#' This function returns a list of pairwise distance matrix between all provided specie trees
+#' @param list.SpeciesTrees List of input species trees
+#' @param vector.SpeciesTreeNames Vector of species tree names
+#' @param string.PathParentDir String for path to parent directory for analyses
+#' @param string.PathHybridCoal String for path to hybrid-coal executable
 #' @keywords multispecies coalescent, model distance, incomplete lineage sorting, hybridization
 #' @return vector.Probabilistic.SpeciesTree.Distances Vector containing the three PSTD measures\cr \cr 
 #' @export
