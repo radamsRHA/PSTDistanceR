@@ -2,19 +2,19 @@
 % Please edit documentation in R/Compute.Pairwise.SpeciesTree.Distances.R
 \name{Compute.Pairwise.SpeciesTree.Distances}
 \alias{Compute.Pairwise.SpeciesTree.Distances}
-\title{Compute.Pairwise.SpeciesTree.Distances: function to XXX}
+\title{Compute.Pairwise.SpeciesTree.Distances: function to compute a matrix of pairwise distances among a set of species trees}
 \usage{
 Compute.Pairwise.SpeciesTree.Distances(list.SpeciesTrees,
   vector.SpeciesTreeNames, string.PathParentDir, string.PathHybridCoal)
 }
 \arguments{
-\item{XXX}{XXX}
+\item{list.SpeciesTrees}{List of input species trees}
 }
 \value{
 vector.Probabilistic.SpeciesTree.Distances Vector containing the three PSTD measures\cr \cr
 }
 \description{
-This function returns a XXX
+returns a list of pairwise distance matrix between all provided specie trees
 }
 \examples{
 
