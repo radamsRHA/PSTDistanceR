@@ -15,3 +15,30 @@ library(devtools)
 install_github("radamsRHA/PSTDistanceR")
 library(PSTDistanceR) # Load package ThetaMater
 ```
+
+Here's an example usage of PSTDistanceR for computing the distance between two species trees:
+
+library(devtools)
+install_github("radamsRHA/PSTDistanceR")
+library(PSTDistanceR)
+library(phangorn)
+
+```
+library(PSTDistanceR)
+library(phangorn)
+
+string.SpeciesTree.1a <- "(((A:1,B:1):1,C:2):1,D:3);"
+handle.SpeciesTree.1a <- read.tree(text = string.SpeciesTree.1a)
+
+string.SpeciesTree.1b <- "(((A:1,C:1):1,B:2):1,D:3);"
+handle.SpeciesTree.1b <- read.tree(text = string.SpeciesTree.1b)
+
+
+Compute.Probabilistic.SpeciesTree.Distances(handle.SpeciesTree.Model1 = handle.SpeciesTree.1a, 
+   handle.SpeciesTree.Model2 = handle.SpeciesTree.1b, 
+   string.PathParentDir = '~/Desktop/', 
+   string.PathHybridCoal = '/Applications/hybrid-coal-v0.2.1-beta/hybrid-coal')
+
+```
+
+
