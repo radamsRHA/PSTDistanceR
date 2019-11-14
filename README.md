@@ -18,11 +18,6 @@ library(PSTDistanceR) # Load package ThetaMater
 
 Here's an example usage of PSTDistanceR for computing the distance between two species trees:
 
-library(devtools)
-install_github("radamsRHA/PSTDistanceR")
-library(PSTDistanceR)
-library(phangorn)
-
 ```
 library(PSTDistanceR)
 library(phangorn)
