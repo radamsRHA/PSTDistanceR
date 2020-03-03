@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // ComputePSTD
 NumericVector ComputePSTD(NumericVector vectorM1, NumericVector vectorM2);
-RcppExport SEXP _PSTD_ComputePSTD(SEXP vectorM1SEXP, SEXP vectorM2SEXP) {
+RcppExport SEXP _PSTDistanceR_ComputePSTD(SEXP vectorM1SEXP, SEXP vectorM2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -19,7 +19,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_PSTD_ComputePSTD", (DL_FUNC) &_PSTD_ComputePSTD, 2},
+    {"_PSTDistanceR_ComputePSTD", (DL_FUNC) &_PSTDistanceR_ComputePSTD, 2},
     {NULL, NULL, 0}
 };
 
