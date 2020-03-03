@@ -24,6 +24,6 @@
 #' \code{ComputeDistancesPSTD} Computes the probabilistic distances between two probability distributions
 #' @export
 ComputePSTD <- function(vectorM1, vectorM2) {
-    .Call('_PSTD_ComputePSTD', PACKAGE = 'PSTDistanceR', vectorM1, vectorM2)
+    .Call('_PSTDistanceR_ComputePSTD', PACKAGE = 'PSTDistanceR', vectorM1, vectorM2)
 }
 
